@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.top{
+    width: 100%;
+    height: 70px;
+    background-color: #22c1cc;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.top .logo{
+    width: 70px;
+    height: 70px;
+    background: url(../img/logo.png) no-repeat;
+    background-size: 100% 100%; 
+    margin-left: 100px;
+}
+.top .top_nav{
+    width: 1080px;
+    height: 100%;
+    font-size: 18px;
+    line-height: 70px;
+    margin: 0 auto;
+}
+.top .top_nav li{
+    width: 100px;
+    float: left;
+    display: block;
+}
+.top .top_nav li:hover a{
+    color: #6bdbb6;
+}
+.top .top_nav li a{
+    color: #ececec;
+}
+.top .my{
+    width: 200px;
+    height: 100%;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.top .my .my_img{
+    width: 70px;
+    height: 70px;
+    background: url(../img/个人.png) center no-repeat;
+    background-size: 50% ;
+    float: left;
+}
+.top .my .dang{
+    width: 100px;
+    height: 70px;
+    line-height: 70px;
+    float: left;
+    text-align: center;
+}
+.guang{
+    width: 100%;
+    margin-top: 70px;
+    background-color: #fecf40;
+}
+.guang img{
+    margin: 0 auto;
+    display: block;
+}
+.nen{
+    width: 1080px;
+    height: 320px;
+    margin: 50px auto;
+}
+.nen .nen_fl{
+    width: 250px;
+    height: 320px;
+    border-radius: 20px;
+    margin-right: 30px;
+    float: left;
+    text-indent: 1em;
+    line-height: 590px;
+    background: url(../img/学习管理.png) center no-repeat;
+    background-size: 80px;
+    background-color: salmon;
+}
+.nen .nen_fl a{
+    color: #fff;
+}
+.nen .nen_fr{
+    width: 800px;
+    height: 100%;
+    float: left;
+}
+.nen .nen_fr ul li{
+    width: 250px;
+    height: 150px;
+    display: block;
+    float: left;
+    line-height: 240px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    text-indent: 1em;
+    background: url(../img/S_心理.png) center no-repeat;
+    background-size: 50px;
+    background-color: #ff7445;
+}
+.nen .nen_fr ul li a{
+    color: #fff;
+}
+.nen .nen_fr ul li:nth-child(2){
+    background: url(../img/提醒.png) center no-repeat;
+    background-size: 50px;
+    background-color: #00deed;
+}
+.nen .nen_fr ul li:nth-child(3){
+    background: url(../img/指导老师.png) center no-repeat;
+    background-size: 50px;
+    background-color: #29abe2;
+}
+.nen .nen_fr ul li:nth-child(4){
+    background: url(../img/咨询.png) center no-repeat;
+    background-size: 50px;
+    background-color: #1cbcb8;
+}
+.nen .nen_fr ul li:nth-child(5){
+    background: url(../img/健康.png) center no-repeat;
+    background-size: 50px;
+    background-color: #cf8dcb;
+}
+.nen .nen_fr ul li:nth-child(6){
+    background: url(../img/更多.png) center no-repeat;
+    background-size: 50px;
+    background-color: #d7667d;
+}
+.zhi{
+    width: 1080px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.zhi .zhi_con{
+    width: 500px;
+    height: 400px;
+    float: left;
+    border: 1px solid #d0def7;
+    background-color: #f2f7fd; 
+}
+.zhi .zhi_fl{
+    margin-right: 58px;
+}
+.zhi .zhi_con li{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 1em;
+}
+.zhi .zhi_con li:nth-child(1){
+    border: 1px solid #d0def7;
+    background-color: #e6edfb;
+}
+.zhi .zhi_con li a{
+    color: #999;
+}
+.zhi .zhi_con li .as{
+    width: 100px;
+    float: left;
+    display: block;
+    text-indent: 0em;
+}
+.zhi .zhi_con li .ax{
+    width: 100px;
+    float: right;
+    display: block;
+}
+.bottom{
+    width: 100%;
+    height: 80px;
+    background-color: #22c1cc;
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+}
